@@ -14,7 +14,7 @@ export default function Weather(props) {
       date: new Date(response.data.dt * 1000),
       temperature: response.data.main.temp,
       description: response.data.weather[0].description,
-      precipitation: 6,
+      feelslike: response.data.main.feels_like,
       humidity: response.data.main.humidity,
       wind: response.data.wind.speed,
       iconUrl: "https://ssl.gstatic.com/onebox/weather/64/cloudy.png",
