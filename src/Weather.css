@@ -3,6 +3,7 @@
   font-family: Arial, Helvetica, sans-serif;
   padding: 16px;
   border-radius: 5px;
+  background-color: #d1c4e9;
 }
 
 .Weather h1 {
@@ -19,17 +20,17 @@
 }
 
 .Weather li {
-  color: rgb(112, 117, 122);
+  color: #757575;
   font-weight: 400;
   line-height: 16px;
   list-style: none;
 }
 
-.Weather img {
-  height: 60px;
-  margin-top: 0px;
+.Weather canvas {
+  height: 50px;
+  margin-top: 5px;
   vertical-align: top;
-  width: 60px;
+  width: 50px;
 }
 
 .Weather .temperature {
@@ -54,6 +55,7 @@
 }
 
 .Weather .currentConditions {
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 8px;
+  color: #757575;
 }
