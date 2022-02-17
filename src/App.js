@@ -23,7 +23,7 @@ export default function App() {
             rel="noreferrer"
           >
             GitHub
-          </a>
+          </a>{" "}
           and hosted on Netlify.
         </footer>
       </div>
